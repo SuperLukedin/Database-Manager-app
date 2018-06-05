@@ -240,6 +240,9 @@ public class DBapp {
                     comboBox8.addItem(tempDataType);
                     comboBox9.addItem(tempDataType);
                     comboBox10.addItem(tempDataType);
+                    comboBox11.addItem(tempDataType);
+                    comboBox12.addItem(tempDataType);
+                    comboBox13.addItem(tempDataType);
                 }
             }
         });
@@ -296,10 +299,10 @@ public class DBapp {
                     String SQL = "create table " + tableName + " (";
                     int i = 0;
                     while (columnTypeList.get(i + 1) != null) {
-                        SQL += columnNameList.get(i) + " " + columnTypeList.get(i) + ",";
+                        SQL += "`" + columnNameList.get(i) + "` " + columnTypeList.get(i) + ",";
                         i++;
                     }
-                    SQL += columnNameList.get(i) + " " + columnTypeList.get(i) + ")";
+                    SQL += "`" + columnNameList.get(i) + "` " + columnTypeList.get(i) + ")";
 
                     if (connection != null) {
                         myStmt = connection.createStatement();
