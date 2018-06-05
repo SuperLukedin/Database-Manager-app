@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DBmanager:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DBmanager_jar</output-path>
+    <root id="archive" name="DBmanager.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="DBmanager" />
+      <element id="extracted-dir" path="E:/Java/JDBC/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/Java/JavaPackages/Load_CSV_Database_Java_example/lib/commons-lang-2.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/Java/JavaPackages/Load_CSV_Database_Java_example/lib/opencsv-2.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../rs2xml.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
