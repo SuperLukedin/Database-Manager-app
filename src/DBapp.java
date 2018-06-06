@@ -4,6 +4,7 @@ import DataBase.DatabaseTabelModel;
 import Table.Table;
 import Table.TableManager;
 import Table.TableTableModel;
+import au.com.bytecode.opencsv.CSVReader;
 import net.proteanit.sql.DbUtils;
 
 import javax.swing.*;
@@ -11,9 +12,11 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.IOException;
 import java.sql.*;
-import java.util.ArrayList;
+import java.util.*;
 import java.util.List;
 
 
@@ -46,40 +49,8 @@ public class DBapp {
     private JPanel uploadSouthPane;
     private JTextField pathField;
     private JButton createTableBtn;
-    private JTextField columnName1;
-    private JComboBox comboBox1;
-    private JTextField columnName2;
-    private JComboBox comboBox2;
-    private JTextField columnName3;
-    private JComboBox comboBox3;
-    private JTextField columnName4;
-    private JComboBox comboBox4;
-    private JTextField columnName5;
-    private JComboBox comboBox5;
-    private JTextField columnName6;
-    private JComboBox comboBox6;
-    private JPanel createTablePane;
-    private JTextField columnName7;
-    private JComboBox comboBox7;
-    private JButton nextToUploadBtn;
-    private JTextField columnName8;
-    private JComboBox comboBox8;
-    private JTextField columnName9;
-    private JComboBox comboBox9;
-    private JTextField columnName10;
-    private JComboBox comboBox10;
-    private JLabel tableCreateName;
-    private JTextField tableNameTextField;
-    private JButton importBtn;
-    private JButton BackToTablePaneBtn;
-    private JButton backAfterImportBtn;
-    private JTextField columnName11;
-    private JTextField columnName12;
-    private JTextField columnName13;
-    private JComboBox comboBox11;
-    private JComboBox comboBox12;
-    private JComboBox comboBox13;
-    private JLabel inputColumnNameTip;
+    private JButton nextToNewTableBackPanelBtn;
+    private JButton backToTableRefreshTableBtn;
     private JButton dropTableBtn;
     private JPanel searchBackPanel;
     private JButton searchBtn;
@@ -91,6 +62,16 @@ public class DBapp {
     private JButton backButton;
     private JPanel resultSouthPanel;
     private JTable resultTable;
+    private JPanel newTableBackPanel;
+    private JPanel newTableSouthPanel;
+    private JButton nextToImportBtn;
+    private JButton backToUploadPanel;
+    private JPanel newTablePanel;
+    private JPanel finalImportPanel;
+    private JTextField createTableNameTextField;
+    private JPanel newTableNorthPanel;
+    private JButton Final_ImportButton;
+    private JButton backToRefreshedTableBtn;
     private JButton testUpload;
 
     // once the database has been selected, it will be assigned as selectedDatabase(used for tableGoToBtn )
@@ -100,6 +81,8 @@ public class DBapp {
     protected List<JTextField> valuesToBeSearched;
     protected List<JLabel> columnsToBeSearched;
     protected List<String> columnList;
+    protected List<JComboBox> dataTypeToBeCreated;
+    protected List<JTextField> columnsToBeCreated;
 
     public DBapp() {
         DBgoToBtn.addActionListener(new ActionListener() {
@@ -217,117 +200,8 @@ public class DBapp {
             @Override
             public void actionPerformed(ActionEvent e) {
                 tablePanel.setVisible(false);
-                createTablePane.setVisible(true);
-                List<String> dataTypeList = new ArrayList<String>();
-                dataTypeList.add(null);
-                dataTypeList.add("int");
-                dataTypeList.add("text");
-                dataTypeList.add("double");
-                dataTypeList.add("bigint");
-                dataTypeList.add("datetime");
-                dataTypeList.add("binary");
-                dataTypeList.add("geometry");
-                dataTypeList.add("json");
+                uploadPane.setVisible(true);
 
-                for (String tempDataType : dataTypeList) {
-                    comboBox1.addItem(tempDataType);
-                    comboBox2.addItem(tempDataType);
-                    comboBox3.addItem(tempDataType);
-                    comboBox4.addItem(tempDataType);
-                    comboBox5.addItem(tempDataType);
-                    comboBox6.addItem(tempDataType);
-                    comboBox7.addItem(tempDataType);
-                    comboBox8.addItem(tempDataType);
-                    comboBox9.addItem(tempDataType);
-                    comboBox10.addItem(tempDataType);
-                    comboBox11.addItem(tempDataType);
-                    comboBox12.addItem(tempDataType);
-                    comboBox13.addItem(tempDataType);
-                }
-            }
-        });
-        nextToUploadBtn.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                if (tableNameTextField.getText().isEmpty()) {
-                    JOptionPane.showMessageDialog(null, "Please input a table name");
-                    return;
-                }
-                if (columnName1.getText().isEmpty()) {
-                    JOptionPane.showMessageDialog(null, "At least one column " +
-                            "and its data type has to be input");
-                    return;
-                }
-                // put all input column names into an ArrayList
-                // in order to loop and fetch them until a null appear
-                List<String> columnNameList = new ArrayList<String>();
-                columnNameList.add(columnName1.getText());
-                columnNameList.add(columnName2.getText());
-                columnNameList.add(columnName3.getText());
-                columnNameList.add(columnName4.getText());
-                columnNameList.add(columnName5.getText());
-                columnNameList.add(columnName6.getText());
-                columnNameList.add(columnName7.getText());
-                columnNameList.add(columnName8.getText());
-                columnNameList.add(columnName9.getText());
-                columnNameList.add(columnName10.getText());
-                columnNameList.add(columnName11.getText());
-                columnNameList.add(columnName12.getText());
-                columnNameList.add(columnName13.getText());
-
-                List<String> columnTypeList = new ArrayList<String>();
-                columnTypeList.add((String) comboBox1.getSelectedItem());
-                columnTypeList.add((String) comboBox2.getSelectedItem());
-                columnTypeList.add((String) comboBox3.getSelectedItem());
-                columnTypeList.add((String) comboBox4.getSelectedItem());
-                columnTypeList.add((String) comboBox5.getSelectedItem());
-                columnTypeList.add((String) comboBox6.getSelectedItem());
-                columnTypeList.add((String) comboBox7.getSelectedItem());
-                columnTypeList.add((String) comboBox8.getSelectedItem());
-                columnTypeList.add((String) comboBox9.getSelectedItem());
-                columnTypeList.add((String) comboBox10.getSelectedItem());
-                columnTypeList.add((String) comboBox11.getSelectedItem());
-                columnTypeList.add((String) comboBox12.getSelectedItem());
-                columnTypeList.add((String) comboBox13.getSelectedItem());
-
-                String tableName = tableNameTextField.getText();
-                Connection connection = null;
-                try {
-                    //point the initialized connection to DB connection. Still use TableManager, the same connection.
-                    connection = TableManager.getConnection(selectedDatabase);
-                    Statement myStmt = null;
-                    String SQL = "create table " + tableName + " (";
-                    int i = 0;
-                    while (columnTypeList.get(i + 1) != null) {
-                        SQL += "`" + columnNameList.get(i) + "` " + columnTypeList.get(i) + ",";
-                        i++;
-                    }
-                    SQL += "`" + columnNameList.get(i) + "` " + columnTypeList.get(i) + ")";
-
-                    if (connection != null) {
-                        myStmt = connection.createStatement();
-                        myStmt.executeUpdate(SQL);
-                    }
-                    createTablePane.setVisible(false);
-                    uploadPane.setVisible(true);
-                } catch (Exception ex) {
-                    ex.printStackTrace();
-                } finally {
-                    if (connection != null) {
-                        try {
-                            connection.close();
-                        } catch (SQLException ex) {
-                            ex.printStackTrace();
-                        }
-                    }
-                }
-            }
-        });
-        BackToTablePaneBtn.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                tablePanel.setVisible(true);
-                createTablePane.setVisible(false);
             }
         });
 
@@ -342,34 +216,8 @@ public class DBapp {
 
             }
         });
-        importBtn.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                if (pathField.getText().isEmpty()) {
-                    JOptionPane.showMessageDialog(null,"Please attach a csv file first");
-                    return;
-                }
-                Connection connection = null;
-                try {
-                    connection = TableManager.getConnection(selectedDatabase);
-                    if (connection != null) {
-                        CSVLoader loader = new CSVLoader(connection);
-                        loader.loadCSV(filePath, tableNameTextField.getText(), true);
-                    }
-                } catch (Exception ex) {
-                    ex.printStackTrace();
-                }finally {
-                    if (connection != null) {
-                        try {
-                            connection.close();
-                        } catch (SQLException ex) {
-                            ex.printStackTrace();
-                        }
-                    }
-                }
-            }
-        });
-        backAfterImportBtn.addActionListener(new ActionListener() {
+
+        backToTableRefreshTableBtn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 Connection connection = null;
@@ -545,6 +393,172 @@ public class DBapp {
                 resultPanel.setVisible(false);
                 resultTable.removeAll();
                 searchPanel.removeAll();
+            }
+        });
+        nextToNewTableBackPanelBtn.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (pathField.getText().isEmpty()) {
+                    JOptionPane.showMessageDialog(null,"Please attach a csv file first");
+                    return;
+                }
+                newTableBackPanel.setVisible(true);
+                uploadPane.setVisible(false);
+
+                List<String> dataTypeList = new ArrayList<String>();
+                dataTypeList.add(null);
+                dataTypeList.add("int");
+                dataTypeList.add("text");
+                dataTypeList.add("double");
+                dataTypeList.add("bigint");
+                dataTypeList.add("datetime");
+                dataTypeList.add("binary");
+                dataTypeList.add("geometry");
+                dataTypeList.add("json");
+
+                try {
+                    CSVReader reader = new CSVReader(new FileReader(filePath));
+                    List<String> nextLine = new ArrayList<>();
+                    StringTokenizer st = null;
+                    nextLine = Arrays.asList(reader.readNext());
+                    List<JTextField> tempColumns = new ArrayList<JTextField>();
+                    List<JComboBox> tempDataType = new ArrayList<JComboBox>();
+
+                    GridBagConstraints c1 = new GridBagConstraints();
+                    GridBagConstraints c2 = new GridBagConstraints();
+                    for (int i = 0; i < nextLine.size(); i++) {
+                        c1.gridx = 0;
+                        c1.gridy = i;
+                        c2.gridx = 2;
+                        c2.gridy = i;
+                        JTextField column = new JTextField(nextLine.get(i),15);
+
+                        JComboBox comboBox = new JComboBox();
+                        for (int j = 0; j < dataTypeList.size(); j++) {
+                            comboBox.addItem(dataTypeList.get(j));
+                        }
+
+                        newTablePanel.add(column, c1);
+                        newTablePanel.add(comboBox, c2);
+                        tempColumns.add(column);
+                        tempDataType.add(comboBox);
+                        //do something with the column ArrayList
+                        columnsToBeCreated = tempColumns;
+                        dataTypeToBeCreated = tempDataType;
+                    }
+                } catch (FileNotFoundException e1) {
+                    e1.printStackTrace();
+                } catch (IOException e1) {
+                    e1.printStackTrace();
+                }
+            }
+        });
+
+        nextToImportBtn.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (createTableNameTextField.getText().isEmpty()) {
+                    JOptionPane.showMessageDialog(null, "Please input a table name");
+                    return;
+                }
+                String tableName = createTableNameTextField.getText();
+                List<String> columnNames = new ArrayList<>();
+                List<String> dataTypes = new ArrayList<>();
+                for (int i = 0; i < columnsToBeCreated.size(); i++) {
+                    columnNames.add(columnsToBeCreated.get(i).getText());
+                }
+                for (int j = 0; j < dataTypeToBeCreated.size(); j++) {
+                    dataTypes.add((String) dataTypeToBeCreated.get(j).getSelectedItem());
+                }
+                Connection connection = null;
+                try {
+                    connection = TableManager.getConnection(selectedDatabase);
+                    Statement myStmt = null;
+                    String SQL = "create table " + tableName + " (";
+                    int i = 0;
+                    while ((i + 1) != (dataTypes.size())) {   //out of bound
+                        SQL += "`" + columnNames.get(i) + "` " + dataTypes.get(i) + ",";
+                        i++;
+                    }
+                    SQL += "`" + columnNames.get(i) + "` " + dataTypes.get(i) + ")";
+
+                    if (connection != null) {
+                        myStmt = connection.createStatement();
+                        myStmt.executeUpdate(SQL);
+                    }
+                    newTableBackPanel.setVisible(false);
+                    finalImportPanel.setVisible(true);
+                } catch (IOException e1) {
+                    e1.printStackTrace();
+                } catch (SQLException e1) {
+                    e1.printStackTrace();
+                } finally {
+                    if (connection != null) {
+                        try {
+                            connection.close();
+                        } catch (SQLException ex) {
+                            ex.printStackTrace();
+                        }
+                    }
+                }
+            }
+        });
+        backToUploadPanel.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                uploadPane.setVisible(true);
+                newTableBackPanel.setVisible(false);
+            }
+        });
+
+        Final_ImportButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Connection connection = null;
+                try {
+                    connection = TableManager.getConnection(selectedDatabase);
+                    if (connection != null) {
+                        CSVLoader loader = new CSVLoader(connection);
+                        loader.loadCSV(filePath, createTableNameTextField.getText(), true);
+                    }
+                } catch (Exception ex) {
+                     ex.printStackTrace();
+                }finally {
+                    if (connection != null) {
+                        try {
+                            connection.close();
+                        } catch (SQLException ex) {
+                            ex.printStackTrace();
+                        }
+                    }
+                }
+            }
+        });
+        backToRefreshedTableBtn.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Connection connection = null;
+                try {
+                    List<Table> tables = null;         //  initialize the List(No dependency)
+                    connection = TableManager.getConnection(selectedDatabase);  //point the initialized connection to DB connection
+                    if (connection != null) {
+                        tables = TableManager.getAllTables(connection, selectedDatabase);   // put DB list in to initialized list
+                    }
+                    TableTableModel model = new TableTableModel(tables); // Table model has constructor, tables list as input value
+                    tableTable.setModel(model);
+                    finalImportPanel.setVisible(false);
+                    tablePanel.setVisible(true);
+                } catch (Exception ex) {
+                    ex.printStackTrace();
+                } finally {
+                    if (connection != null) {
+                        try {
+                            connection.close();
+                        } catch (SQLException ex) {
+                            ex.printStackTrace();
+                        }
+                    }
+                }
             }
         });
     }
