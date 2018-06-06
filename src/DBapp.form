@@ -309,7 +309,7 @@
                   <text value="Create table"/>
                 </properties>
               </component>
-              <component id="16cea" class="javax.swing.JButton" binding="backToUploadPanel">
+              <component id="16cea" class="javax.swing.JButton" binding="backToUploadPanelBtn">
                 <constraints/>
                 <properties>
                   <text value="Back"/>

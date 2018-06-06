@@ -65,7 +65,7 @@ public class DBapp {
     private JPanel newTableBackPanel;
     private JPanel newTableSouthPanel;
     private JButton nextToImportBtn;
-    private JButton backToUploadPanel;
+    private JButton backToUploadPanelBtn;
     private JPanel newTablePanel;
     private JPanel finalImportPanel;
     private JTextField createTableNameTextField;
@@ -503,11 +503,12 @@ public class DBapp {
                 }
             }
         });
-        backToUploadPanel.addActionListener(new ActionListener() {
+        backToUploadPanelBtn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 uploadPane.setVisible(true);
                 newTableBackPanel.setVisible(false);
+                newTablePanel.removeAll();
             }
         });
 
