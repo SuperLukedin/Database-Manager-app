@@ -533,6 +533,7 @@ public class DBapp {
                         }
                     }
                 }
+                JOptionPane.showMessageDialog(null, "Importing completed");
             }
         });
         backToRefreshedTableBtn.addActionListener(new ActionListener() {
@@ -549,6 +550,9 @@ public class DBapp {
                     tableTable.setModel(model);
                     finalImportPanel.setVisible(false);
                     tablePanel.setVisible(true);
+                    newTablePanel.removeAll();
+                    pathField.setText("");
+                    filePath = "";
                 } catch (Exception ex) {
                     ex.printStackTrace();
                 } finally {

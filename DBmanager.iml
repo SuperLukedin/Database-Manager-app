@@ -52,7 +52,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://E:/Java/JavaPackages/Load_CSV_Database_Java_example/lib/opencsv-2.3.jar!/" />
+          <root url="jar://E:/Java/JavaPackages/Load_CSV_Database_Java_example/lib/commons-lang-2.4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -61,7 +61,16 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://E:/Java/JavaPackages/Load_CSV_Database_Java_example/lib/commons-lang-2.4.jar!/" />
+          <root url="jar://E:/Java/JavaPackages/Load_CSV_Database_Java_example/lib/ojdbc15-11.1.0.6.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://E:/Java/JavaPackages/Load_CSV_Database_Java_example/lib/opencsv-2.3.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
