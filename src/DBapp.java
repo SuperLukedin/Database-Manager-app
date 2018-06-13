@@ -2,6 +2,7 @@ import DataBase.DBmanager;
 import DataBase.Database;
 import DataBase.DatabaseTabelModel;
 import RelatedTables.Abandoned_properties;
+import RelatedTables.Open_complaints;
 import Table.Table;
 import Table.TableManager;
 import Table.TableTableModel;
@@ -82,6 +83,7 @@ public class DBapp {
     private JButton button1;
     private JButton relationshipsBackBtn;
     private JLabel relationshipsLabel;
+    private JLabel relationshipsHostTableLabel;
     private JButton testUpload;
 
     // once the database has been selected, it will be assigned as selectedDatabase(used for tableGoToBtn )
@@ -583,12 +585,20 @@ public class DBapp {
                 switch (selectedTable) {
                     case "abandoned_properties":
                         url = new Abandoned_properties().getUrl();
+                        try {
+                            Desktop.getDesktop().browse(java.net.URI.create(url));
+                        } catch (IOException e1) {
+                            e1.printStackTrace();
+                        }
+                    case "open_complaints":
+                        url = new Open_complaints().getUrl();
+                        try {
+                            Desktop.getDesktop().browse(java.net.URI.create(url));
+                        } catch (IOException e1) {
+                            e1.printStackTrace();
+                        }
                 }
-                try {
-                    Desktop.getDesktop().browse(java.net.URI.create(url));
-                } catch (IOException e1) {
-                    e1.printStackTrace();
-                }
+
             }
         });
         relationshipsBtn.addActionListener(new ActionListener() {
@@ -599,8 +609,9 @@ public class DBapp {
                 switch (selectedTable) {
                     case "abandoned_properties":
                         Abandoned_properties abandoned_properties = new Abandoned_properties();
-                        relationshipsLabel.setText(abandoned_properties.getTableName()
-                                + " relates with " + abandoned_properties.getAbandoned_properties().get(0));
+                        relationshipsHostTableLabel.setText(abandoned_properties.getTableName());
+                        relationshipsLabel.setText(" relates with "
+                                + abandoned_properties.getAbandoned_properties().get(0));
                 }
             }
         });

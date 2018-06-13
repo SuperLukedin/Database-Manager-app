@@ -428,6 +428,12 @@
               <text value="Label"/>
             </properties>
           </component>
+          <component id="46a73" class="javax.swing.JLabel" binding="relationshipsHostTableLabel">
+            <constraints border-constraint="West"/>
+            <properties>
+              <text value="Label"/>
+            </properties>
+          </component>
         </children>
       </grid>
     </children>

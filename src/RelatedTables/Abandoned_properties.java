@@ -10,7 +10,7 @@ public class Abandoned_properties {
 
     public Abandoned_properties() {
         Abandoned_properties.add("open_complaints");
-        url = "https://public.tableau.com/views/abps_block/Dashboard1?:embed=y&:display_count=yes";
+        url = "https://public.tableau.com/views/abps_blocksheet/Sheet_abpsBlock?:embed=y&:display_count=yes";
     }
 
     public String getTableName() {
