@@ -1,6 +1,7 @@
 import DataBase.DBmanager;
 import DataBase.Database;
 import DataBase.DatabaseTabelModel;
+import RelatedTables.Abandoned_properties;
 import Table.Table;
 import Table.TableManager;
 import Table.TableTableModel;
@@ -16,8 +17,10 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.sql.*;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.StringTokenizer;
 
 
 public class DBapp {
@@ -72,6 +75,13 @@ public class DBapp {
     private JPanel newTableNorthPanel;
     private JButton Final_ImportButton;
     private JButton backToRefreshedTableBtn;
+    private JButton visualizeBtn;
+    private JButton relationshipsBtn;
+    private JPanel relationshipsPanel;
+    private JPanel relationshipsSouthPanel;
+    private JButton button1;
+    private JButton relationshipsBackBtn;
+    private JLabel relationshipsLabel;
     private JButton testUpload;
 
     // once the database has been selected, it will be assigned as selectedDatabase(used for tableGoToBtn )
@@ -474,13 +484,13 @@ public class DBapp {
                 try {
                     connection = TableManager.getConnection(selectedDatabase);
                     Statement myStmt = null;
-                    String SQL = "create table " + tableName + " (";
+                    String SQL = "create table " + tableName + " (id INT NOT NULL AUTO_INCREMENT, ";
                     int i = 0;
                     while ((i + 1) != (dataTypes.size())) {   //out of bound
                         SQL += "`" + columnNames.get(i) + "` " + dataTypes.get(i) + ",";
                         i++;
                     }
-                    SQL += "`" + columnNames.get(i) + "` " + dataTypes.get(i) + ")";
+                    SQL += "`" + columnNames.get(i) + "` " + dataTypes.get(i) + ", PRIMARY KEY (id))";
 
                     if (connection != null) {
                         myStmt = connection.createStatement();
@@ -564,6 +574,41 @@ public class DBapp {
                         }
                     }
                 }
+            }
+        });
+        visualizeBtn.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String url = null;
+                switch (selectedTable) {
+                    case "abandoned_properties":
+                        url = new Abandoned_properties().getUrl();
+                }
+                try {
+                    Desktop.getDesktop().browse(java.net.URI.create(url));
+                } catch (IOException e1) {
+                    e1.printStackTrace();
+                }
+            }
+        });
+        relationshipsBtn.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                DataPanel.setVisible(false);
+                relationshipsPanel.setVisible(true);
+                switch (selectedTable) {
+                    case "abandoned_properties":
+                        Abandoned_properties abandoned_properties = new Abandoned_properties();
+                        relationshipsLabel.setText(abandoned_properties.getTableName()
+                                + " relates with " + abandoned_properties.getAbandoned_properties().get(0));
+                }
+            }
+        });
+        relationshipsBackBtn.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                relationshipsPanel.setVisible(false);
+                DataPanel.setVisible(true);
             }
         });
     }

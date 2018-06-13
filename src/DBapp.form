@@ -147,6 +147,18 @@
                   <text value="Search"/>
                 </properties>
               </component>
+              <component id="b7b8a" class="javax.swing.JButton" binding="visualizeBtn">
+                <constraints/>
+                <properties>
+                  <text value="Visualize"/>
+                </properties>
+              </component>
+              <component id="570ff" class="javax.swing.JButton" binding="relationshipsBtn">
+                <constraints/>
+                <properties>
+                  <text value="Relationships"/>
+                </properties>
+              </component>
               <component id="64308" class="javax.swing.JButton" binding="DataButton">
                 <constraints/>
                 <properties>
@@ -382,6 +394,40 @@
               </component>
             </children>
           </grid>
+        </children>
+      </grid>
+      <grid id="f2c1f" binding="relationshipsPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <card name="Card5"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="b3996" binding="relationshipsSouthPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="South"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="5ec49" class="javax.swing.JButton" binding="button1" default-binding="true">
+                <constraints/>
+                <properties>
+                  <text value="Button"/>
+                </properties>
+              </component>
+              <component id="ee6a4" class="javax.swing.JButton" binding="relationshipsBackBtn">
+                <constraints/>
+                <properties>
+                  <text value="Back"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="79297" class="javax.swing.JLabel" binding="relationshipsLabel">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <text value="Label"/>
+            </properties>
+          </component>
         </children>
       </grid>
     </children>

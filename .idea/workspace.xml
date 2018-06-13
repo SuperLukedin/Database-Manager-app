@@ -7,13 +7,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f673ba2c-2bc7-4db6-b1c1-e366d69c1c8a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/RelatedTables/Abandoned_properties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RelatedTables/Relationships.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DBmanager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DBmanager.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/DBmanager.zip" beforeDir="false" afterPath="$PROJECT_DIR$/out/DBmanager.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/DBmanager_jar/DBmanager.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DBmanager_jar/DBmanager.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DBmanager/DBapp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBmanager/DBapp$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DBmanager/DBapp$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBmanager/DBapp$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DBmanager/DBapp$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBmanager/DBapp$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DBmanager/DBapp$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBmanager/DBapp$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DBmanager/DBapp$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBmanager/DBapp$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DBmanager/DBapp$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBmanager/DBapp$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DBmanager/DBapp$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBmanager/DBapp$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DBmanager/DBapp$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBmanager/DBapp$16.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DBmanager/DBapp$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBmanager/DBapp$17.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DBmanager/DBapp$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBmanager/DBapp$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DBmanager/DBapp$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBmanager/DBapp$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DBmanager/DBapp$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBmanager/DBapp$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DBmanager/DBapp$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBmanager/DBapp$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DBmanager/DBapp$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBmanager/DBapp$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DBmanager/DBapp$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBmanager/DBapp$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DBmanager/DBapp$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBmanager/DBapp$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DBmanager/DBapp$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBmanager/DBapp$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DBmanager/DBapp$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBmanager/DBapp$9.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DBmanager/DBapp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBmanager/DBapp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DBapp.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/DBapp.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DBapp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DBapp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,16 +47,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DBapp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DBapp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DBapp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="419" column="29" selection-start-line="419" selection-start-column="29" selection-end-line="419" selection-end-column="29" />
+            <state relative-caret-position="7871">
+              <caret line="485" column="44" selection-start-line="485" selection-start-column="44" selection-end-line="485" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Abandoned_properties.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/RelatedTables/Abandoned_properties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Table.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Table/Table.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBapp.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DBapp.form">
+          <provider selected="true" editor-type-id="ui-designer" />
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,8 +100,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/Table/Relationships.java" />
         <option value="$PROJECT_DIR$/src/DBapp.form" />
         <option value="$PROJECT_DIR$/src/DBapp.java" />
+        <option value="$PROJECT_DIR$/src/RelatedTables/Abandoned_properties.java" />
       </list>
     </option>
   </component>
@@ -61,8 +117,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-30" />
-    <option name="y" value="111" />
+    <option name="x" value="831" />
+    <option name="y" value="87" />
     <option name="width" value="1890" />
     <option name="height" value="930" />
   </component>
@@ -71,9 +127,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -83,18 +137,38 @@
             </path>
             <path>
               <item name="DBmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DBmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DBmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DBmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="RelatedTables" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DBmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DBmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Table" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DBmanager" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="103" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/Java/JavaPackages/Load_CSV_Database_Java_example/lib/opencsv-2.3.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -185,11 +259,18 @@
       <workItem from="1528396175929" duration="4777000" />
       <workItem from="1528401164376" duration="1525000" />
       <workItem from="1528402743612" duration="1179000" />
+      <workItem from="1528746475254" duration="234000" />
+      <workItem from="1528820087194" duration="1453000" />
+      <workItem from="1528824425247" duration="2975000" />
+      <workItem from="1528836182868" duration="2958000" />
+      <workItem from="1528858847962" duration="507000" />
+      <workItem from="1528899391273" duration="9315000" />
+      <workItem from="1528915413004" duration="28000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17986000" />
+    <option name="totallyTimeSpent" value="35456000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -236,7 +317,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -261,9 +342,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -531,23 +609,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://E:/Java/JavaPackages/Load_CSV_Database_Java_example/lib/opencsv-2.3.jar!/au/com/bytecode/opencsv/CSVReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-918">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CSVLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="213">
+          <caret line="63" column="50" lean-forward="true" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Table/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DBapp.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/RelatedTables/Relationships.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/DBapp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="419" column="29" selection-start-line="419" selection-start-column="29" selection-end-line="419" selection-end-column="29" />
+        <state relative-caret-position="7871">
+          <caret line="485" column="44" selection-start-line="485" selection-start-column="44" selection-end-line="485" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RelatedTables/Abandoned_properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
