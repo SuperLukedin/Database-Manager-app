@@ -49,7 +49,7 @@
             <img src="Manual/screenshots/createTableBtn.gif" alt="initialize the database gif" class="gif" align"center" height="290" width="480">
         </a>   
         <h4>Join</h4>
-        <a href="Manual/screenshots/joinBtn.gif">
+        <a href="Manual/screenshots/JoinBtn.gif">
             <img src="Manual/screenshots/joinBtn.gif" alt="Join Bottom gif" class="gif">
         </a>
         <p>Join &rarr; Select the tables to be Joined &rarr; select columns to be shown in the join results &rarr; select join type &rarr; view the join results</p>
