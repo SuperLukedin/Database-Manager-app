@@ -21,11 +21,14 @@
             <li><b>MySQL.properties</b> - mainly contains your MySQL database user name and password</li>
             <li><b>RUN.bat</b> - windows user can double-click the file to run the program</li>
 </ul>
+<br>
+<br>
 <h4>MySQL.properties</h4>
         <p>It is simply a text file, you can open and edit in any editor. </p>
         <a href="Manual/screenshots/MySQLproperties.png">
             <img alt="A screenshot showing MySQL.properties" src="Manual/screenshots/MySQLproperties.png">
 </a>
+<br>
 <ul>         
                 <li><b><em>user:</em></b>
                 root is the default user name in MySQL database<br></li> 
@@ -33,7 +36,7 @@
                 <li><b><em>dburl:</em></b> mysql://localhost:3306 is the default port once MySQL database being installed. No need to change that if not necessary.<br></li>
             </ul>
             <b>Note:</b> Do not leave space between the "=" sign.
-
+<br>
 <h2>Running the program</h2>
  <p>
             Double-click <b><em>RUN.bat</em></b>. After openning the program, click <b><em>initialize</em></b> to fetch all the schemas in your MySQL database. Select one then go into that one.
