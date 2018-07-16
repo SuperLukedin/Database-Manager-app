@@ -9,7 +9,7 @@
   First, database Manager program needs three files showing below:
 </p>
 <a href="Manual/screenshots/theFiles.png">
-            <img alt="A screenshot showing all files of the program" src="Manual/screenshots/theFiles.png" align"center" height="90" width="350">
+  <img alt="A screenshot showing all files of the program" src="Manual/screenshots/theFiles.png" align"center" height="90" width="350">
 </a>
 <ul>
             <li><b>DBmanager.jar</b> - the jar file runs the program</li>
@@ -21,7 +21,7 @@
 <h4>MySQL.properties</h4>
         <p>It is simply a text file, you can open and edit in any editor. </p>
         <a href="Manual/screenshots/MySQLproperties.png">
-            <img alt="A screenshot showing MySQL.properties" src="Manual/screenshots/MySQLproperties.png" align"center" height="90" width="320">
+  <img alt="A screenshot showing MySQL.properties" src="Manual/screenshots/MySQLproperties.png" align"center" height="90" width="320">
 </a>
 <br>
 <br>
@@ -38,11 +38,11 @@
             Double-click <b><em>RUN.bat</em></b>. After openning the program, click <b><em>initialize</em></b> to fetch all the schemas in your MySQL database. Select one then go into that one.
         </p>
  <a href="Manual/screenshots/initialize.gif" >
-            <img src="Manual/screenshots/initialize.gif" alt="initialize the database gif" class="gif" align"center" height="290" width="410">
+<img src="Manual/screenshots/initialize.gif" alt="initialize the database gif" class="gif" align"center" height="290" width="410">
         </a>
         <p><b>As you entered your table panel, you will see the buttons below:</b></p>
         <a href="Manual/screenshots/functionBtn-table.png" >
-            <img src="Manual/screenshots/functionBtn-table.png" alt="initialize the database gif" align"center" height="30" width="550">
+<img src="Manual/screenshots/functionBtn-table.png" alt="initialize the database gif" align"center" height="30" width="550">
         </a>
         <h4>Create new Table</h4>
         <a href="Manual/screenshots/createTableBtn.gif" >
