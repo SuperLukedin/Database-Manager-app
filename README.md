@@ -29,6 +29,7 @@
             <img alt="A screenshot showing MySQL.properties" src="Manual/screenshots/MySQLproperties.png">
 </a>
 <br>
+<br>
 <ul>         
                 <li><b><em>user:</em></b>
                 root is the default user name in MySQL database<br></li> 
