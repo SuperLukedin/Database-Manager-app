@@ -1,67 +1,33 @@
-public class main {
-//    public static void main(String [] args) {
-//        Connection connection = null;
-//        try {
-//            List<Database> databases = null;
-//            connection = DBmanager.getConnection();
-//            if (connection != null) {
-//                System.out.println("Connection Established");
-//                databases = DBmanager.getAllDatabases(connection);
-//            }
-//            for (Database temp : databases) {
-//                System.out.println(temp);
-//            }
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        } finally {
-//            if (connection != null) {
-//                try {
-//                    connection.close();
-//                } catch (SQLException e) {
-//                    e.printStackTrace();
-//                }
-//            }
-//
-//        }
-//    }
-//    public static void main(String [] args) {
-//        Connection connection = null;
-//        try {
-//            List<Table> tables = null;
-//            connection = TableManager.getConnection("newarkdata");
-//            if (connection != null) {
-//                System.out.println("Connection Established");
-//                tables = TableManager.getAllTables(connection, "newarkdata");
-//            }
-//            for (Table temp : tables) {
-//                System.out.println(temp);
-//            }
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        } finally {
-//            if (connection != null) {
-//                try {
-//                    connection.close();
-//                } catch (SQLException e) {
-//                    e.printStackTrace();
-//                }
-//            }
-//
-//        }
-//    }
+import java.io.IOException;
 
-      public static void main(String[] args) {
-          String table = "people";
-          String column = " var";
-          String datatype = " int";
-          String st = "create table " + table;
-          st += column;
-          st += datatype;
-          System.out.println(st);
-          int i = 0;
-          while (i != 10) {
-              i++;
-          }
-          System.out.println(i);
-      }
+public class main {
+    //public List<>
+    public static void main(String[] args) throws IOException {
+//        Geocoder geocoder = new Geocoder();
+//        List<GeocoderResult> result;
+//        //向google发送获取地址详细请求
+//        GeocoderRequest geocoderRequest = new GeocoderRequestBuilder().setAddress("15-17 ANN STREET Newark").setLanguage("en").getGeocoderRequest();
+//        //获得google的反馈
+//        GeocodeResponse geocoderResponse = geocoder.geocode(geocoderRequest);
+//        result = geocoderResponse.getResults();
+//
+//        //获取地址经纬度信息
+//        float lat = result.get(0).getGeometry().getLocation().getLat().floatValue();
+//        float lng = result.get(0).getGeometry().getLocation().getLng().floatValue();
+//
+//        System.out.println(result.get(0).getFormattedAddress());
+//        System.out.println("lat/lng=" + lat + "," + lng);
+//        Geo geo = new Geo("401 summit st");
+//////        float lat = geo.getLatLong()[0];
+//////        float lng = geo.getLatLong()[1];
+////            float lat = geo.getLatLong().get(0);
+////            float lng = geo.getLatLong().get(1);
+////        System.out.println(lat + " " + lng);
+
+
+
+
+
+
+    }
 }

@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="DBmanager">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/out/DBmanager.zip!/" />
+      <root url="jar://$PROJECT_DIR$/DBmanager.zip!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

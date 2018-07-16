@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="DBmanager1">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/out/artifacts/DBmanager_jar/DBmanager.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

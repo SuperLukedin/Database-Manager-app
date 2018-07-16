@@ -6,9 +6,20 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f673ba2c-2bc7-4db6-b1c1-e366d69c1c8a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/RelatedTables/Open_complaints.java" afterDir="false" />
+    <list default="true" id="3e1322d4-adbe-4dff-b874-4025b097e63b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/GetMetaColumns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RelatedTables/Newark_housing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/DBmanager_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/DBmanager.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/DBmanager.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/DBmanager1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DBmanager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DBmanager.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DBmanager.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySQL.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/DBmanager.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DBmanager_jar/DBmanager.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DBmanager_jar/DBmanager.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DBmanager/DBapp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBmanager/DBapp$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DBmanager/DBapp$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBmanager/DBapp$10.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DBmanager/DBapp$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBmanager/DBapp$11.class" afterDir="false" />
@@ -31,10 +42,16 @@
       <change beforePath="$PROJECT_DIR$/out/production/DBmanager/DBapp$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBmanager/DBapp$8.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DBmanager/DBapp$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBmanager/DBapp$9.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DBmanager/DBapp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBmanager/DBapp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DBmanager/RelatedTables/Abandoned_properties.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBmanager/RelatedTables/Abandoned_properties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DBmanager/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DBmanager/RelatedTables/Relationships.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DBmanager/Table/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBmanager/Table/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DBmanager/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBmanager/main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DBapp.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/DBapp.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DBapp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DBapp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RelatedTables/Abandoned_properties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RelatedTables/Abandoned_properties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RelatedTables/Relationships.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Table/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Table/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,39 +66,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DBapp.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DBapp.java">
+      <file leaf-file-name="test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Table/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8524">
-              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Abandoned_properties.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RelatedTables/Abandoned_properties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="107" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="107" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#695#696#0" expanded="true" />
-                <element signature="e#738#739#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Open_complaints.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RelatedTables/Open_complaints.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#808#809#0" expanded="true" />
-                <element signature="e#862#863#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -89,15 +78,60 @@
       <file leaf-file-name="Table.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Table/Table.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="170">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBapp.form" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GetMetaColumns.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GetMetaColumns.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBapp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DBapp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="776" column="26" selection-start-line="776" selection-start-column="26" selection-end-line="776" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Geo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Geo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBapp.form" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DBapp.form">
           <provider selected="true" editor-type-id="ui-designer" />
+        </entry>
+      </file>
+      <file leaf-file-name="AddLatLngColumns.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AddLatLngColumns.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -105,9 +139,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Tag Library Descriptor" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="HTTP Request" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>E:\Java\JavaPackages\Load_CSV_Database_Java_example\lib\commons-lang-2.4.jar</dir>
+      <dir>E:\Java\JavaPackages\rs2xml.jar</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -115,10 +159,27 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Table/Relationships.java" />
+        <option value="$PROJECT_DIR$/src/AddLatLngColumns.java" />
+        <option value="$PROJECT_DIR$/src/Table/insertLatLng.java" />
+        <option value="$PROJECT_DIR$/src/insertLatLng.java" />
+        <option value="$PROJECT_DIR$/src/getMetaColumns.java" />
+        <option value="$PROJECT_DIR$/src/GetMetaColumns.java" />
+        <option value="$PROJECT_DIR$/src/visD3.html" />
+        <option value="$PROJECT_DIR$/src/BarGraph.js" />
+        <option value="$PROJECT_DIR$/src/Table/Table.java" />
+        <option value="$PROJECT_DIR$/src/Table/test.java" />
+        <option value="$PROJECT_DIR$/src/visWeb/BarGraph.js" />
+        <option value="$PROJECT_DIR$/src/visWeb/WorkingWithArrays.js" />
+        <option value="$PROJECT_DIR$/src/visWeb/testBar.js" />
+        <option value="$PROJECT_DIR$/src/visWeb/year_value.csv" />
+        <option value="$PROJECT_DIR$/src/visWeb/visD3.html" />
+        <option value="$PROJECT_DIR$/src/visWeb/BarChart.js" />
+        <option value="$PROJECT_DIR$/src/visWeb/gg.http" />
+        <option value="$PROJECT_DIR$/src/visWeb/applet.java" />
+        <option value="$PROJECT_DIR$/src/visWeb/index.html" />
+        <option value="$PROJECT_DIR$/src/main.java" />
         <option value="$PROJECT_DIR$/src/DBapp.form" />
-        <option value="$PROJECT_DIR$/src/RelatedTables/Abandoned_properties.java" />
-        <option value="$PROJECT_DIR$/src/RelatedTables/Open_complaints.java" />
+        <option value="$PROJECT_DIR$/src/Geo.java" />
         <option value="$PROJECT_DIR$/src/DBapp.java" />
       </list>
     </option>
@@ -133,18 +194,16 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="831" />
-    <option name="y" value="87" />
-    <option name="width" value="1890" />
-    <option name="height" value="930" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="981" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,24 +218,6 @@
             </path>
             <path>
               <item name="DBmanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="RelatedTables" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DBmanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Table" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DBmanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DBapp" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="DBmanager" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -184,10 +225,15 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="103" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="joinTablesNextToColumnsButton&#9;PSI&#9;JAVA://DBapp#joinTablesNextToColumnsButton&#10;dropTable&#9;PSI&#9;JAVA://DBapp#dropTableBtn&#10;backToTableFromJoinResult&#9;PSI&#9;JAVA://DBapp#backToTableFromJoinResult&#10;resultPanel&#9;PSI&#9;JAVA://DBapp#resultPanel" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="68" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="360" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -196,7 +242,12 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Workplace\DBmanager\src\visWeb" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -210,13 +261,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.DBapp">
     <configuration name="DBapp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DBapp" />
       <module name="DBmanager" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <module name="DBmanager" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -235,6 +291,7 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="visD3.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DBmanager/visWeb/visD3.html" />
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -257,9 +314,16 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.DBapp" />
+      <item itemvalue="Application.main" />
+      <item itemvalue="JavaScript Debug.visD3.html" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.DBapp" />
+        <item itemvalue="JavaScript Debug.visD3.html" />
+        <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
   </component>
@@ -268,67 +332,85 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f673ba2c-2bc7-4db6-b1c1-e366d69c1c8a" name="Default" comment="" />
-      <created>1528296861183</created>
+      <changelist id="3e1322d4-adbe-4dff-b874-4025b097e63b" name="Default" comment="" />
+      <created>1530133722489</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1528296861183</updated>
-      <workItem from="1528296864093" duration="666000" />
-      <workItem from="1528297598359" duration="30000" />
-      <workItem from="1528300608591" duration="1061000" />
-      <workItem from="1528307635368" duration="2020000" />
-      <workItem from="1528379542344" duration="6728000" />
-      <workItem from="1528396175929" duration="4777000" />
-      <workItem from="1528401164376" duration="1525000" />
-      <workItem from="1528402743612" duration="1179000" />
-      <workItem from="1528746475254" duration="234000" />
-      <workItem from="1528820087194" duration="1453000" />
-      <workItem from="1528824425247" duration="2975000" />
-      <workItem from="1528836182868" duration="2958000" />
-      <workItem from="1528858847962" duration="507000" />
-      <workItem from="1528899391273" duration="9315000" />
-      <workItem from="1528915413004" duration="28000" />
-      <workItem from="1528916324927" duration="2879000" />
+      <updated>1530133722489</updated>
+      <workItem from="1530133725192" duration="624000" />
+      <workItem from="1530135077941" duration="177000" />
+      <workItem from="1530135532349" duration="17000" />
+      <workItem from="1530198548531" duration="17828000" />
+      <workItem from="1530283492265" duration="3552000" />
+      <workItem from="1530291660436" duration="5936000" />
+      <workItem from="1530299944633" duration="1876000" />
+      <workItem from="1530484786262" duration="7910000" />
+      <workItem from="1530539783569" duration="11310000" />
+      <workItem from="1530627292017" duration="2426000" />
+      <workItem from="1530641113314" duration="619000" />
+      <workItem from="1530805738786" duration="1269000" />
+      <workItem from="1530814420794" duration="417000" />
+      <workItem from="1530815149101" duration="105000" />
+      <workItem from="1530815337032" duration="5017000" />
+      <workItem from="1530826415014" duration="71000" />
+      <workItem from="1530885064056" duration="752000" />
+      <workItem from="1530887878339" duration="3355000" />
+      <workItem from="1531163644951" duration="6357000" />
+      <workItem from="1531232825206" duration="3228000" />
+      <workItem from="1531259187180" duration="860000" />
+      <workItem from="1531321469666" duration="3646000" />
+      <workItem from="1531325784833" duration="20236000" />
+      <workItem from="1531348759817" duration="1753000" />
+      <workItem from="1531359329126" duration="2469000" />
+      <workItem from="1531413560159" duration="2909000" />
+      <workItem from="1531418269884" duration="997000" />
+      <workItem from="1531427465457" duration="1005000" />
+      <workItem from="1531495536830" duration="3013000" />
+      <workItem from="1531615783954" duration="361000" />
+      <workItem from="1531616290783" duration="642000" />
+      <workItem from="1531679235323" duration="1924000" />
+      <workItem from="1531749397223" duration="866000" />
+      <workItem from="1531756220570" duration="30000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38335000" />
+    <option name="totallyTimeSpent" value="113557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="1" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="right" id="Run" order="9" weight="0.6455894" />
+      <window_info anchor="bottom" id="Terminal" order="6" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20530835" />
       <window_info anchor="right" id="Database" order="2" />
+      <window_info id="Learn" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="12" weight="0.48129252" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32993197" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="right" id="Run" order="9" weight="0.668228" />
-      <window_info anchor="bottom" id="Terminal" order="6" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2045277" />
-      <window_info id="Web" order="5" side_tool="true" />
-      <window_info id="Learn" order="8" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.48129252" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32993197" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32993197" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" />
       <window_info anchor="bottom" id="Application Servers" order="1" />
     </layout>
   </component>
@@ -340,363 +422,302 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="12" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DBapp.java">
+    <entry file="jar://E:/Java/JavaPackages/geocoder-java-0.16.jar!/com/google/code/geocoder/model/GeocoderComponent.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7123">
-          <caret line="419" column="29" selection-start-line="419" selection-start-column="29" selection-end-line="419" selection-end-column="29" />
+        <state relative-caret-position="68">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DBapp.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CSVLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DBapp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9367">
-          <caret line="551" column="46" lean-forward="true" selection-start-line="551" selection-start-column="46" selection-end-line="551" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DBapp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8126">
-          <caret line="478" column="40" lean-forward="true" selection-start-line="478" selection-start-column="40" selection-end-line="478" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DBapp.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DBapp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9384">
-          <caret line="552" column="68" lean-forward="true" selection-start-line="552" selection-start-column="68" selection-end-line="552" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DBapp.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DBapp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8670">
-          <caret line="510" column="42" selection-start-line="510" selection-start-column="42" selection-end-line="510" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DBapp.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DBapp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8670">
-          <caret line="510" column="42" selection-start-line="510" selection-start-column="42" selection-end-line="510" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DBapp.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="jar://E:/Java/JDBC/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/jdbc/exceptions/SQLError.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/JavaPackages/Load_CSV_Database_Java_example/lib/commons-lang-2.4.jar!/org/apache/commons/lang/StringUtils.class">
+    <entry file="jar://E:/Java/JavaPackages/gson-2.8.0.jar!/com/google/gson/GsonBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="940" selection-start-line="940" selection-end-line="940" />
+          <caret line="203" column="26" selection-start-line="203" selection-start-column="26" selection-end-line="203" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/Java/JDBC/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/CoreSession.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="123" selection-start-line="123" selection-end-line="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/JDBC/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/conf/DefaultPropertySet.class">
+    <entry file="jar://E:/Java/JavaPackages/slf4j-1.7.25/slf4j-simple-1.7.25.jar!/org/slf4j/impl/SimpleLogger.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
+          <caret line="193" selection-start-line="193" selection-end-line="193" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/Java/JDBC/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/util/StringUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="176" selection-start-line="176" selection-end-line="176" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/JDBC/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/util/LazyString.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/JDBC/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/protocol/a/NativeUtils.class">
+    <entry file="jar://E:/Java/JavaPackages/gson-2.8.0.jar!/com/google/gson/internal/JsonReaderInternalAccess.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/Java/JDBC/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/protocol/a/PacketSplitter.class">
+    <entry file="jar://E:/Java/JavaPackages/gson-2.8.0.jar!/com/google/gson/stream/JsonReader.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="177">
+          <caret line="147" column="48" selection-start-line="147" selection-start-column="48" selection-end-line="147" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/Java/JDBC/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/protocol/a/SimplePacketSender.class">
+    <entry file="jar://E:/Java/JavaPackages/gson-2.8.0.jar!/com/google/gson/internal/$Gson$Preconditions.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="153">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/Java/JDBC/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/protocol/a/TimeTrackingPacketSender.class">
+    <entry file="jar://E:/Java/JavaPackages/gson-2.8.0.jar!/com/google/gson/TypeAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/JDBC/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/conf/AbstractReadableProperty.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
+        <state relative-caret-position="136">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/Java/JDBC/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/protocol/AbstractSocketConnection.class">
+    <entry file="jar://E:/Java/JavaPackages/gson-2.8.0.jar!/com/google/gson/internal/bind/ObjectTypeAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/JavaPackages/gson-2.8.0.jar!/com/google/gson/internal/bind/DateTypeAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/JavaPackages/gson-2.8.0.jar!/com/google/gson/internal/bind/TimeTypeAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/JavaPackages/gson-2.8.0.jar!/com/google/gson/internal/bind/SqlDateTypeAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/JavaPackages/gson-2.8.0.jar!/com/google/gson/internal/bind/ArrayTypeAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/JavaPackages/gson-2.8.0.jar!/com/google/gson/internal/bind/TypeAdapters.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="781" selection-start-line="781" selection-end-line="781" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/JavaPackages/gson-2.8.0.jar!/com/google/gson/internal/bind/CollectionTypeAdapterFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/JavaPackages/gson-2.8.0.jar!/com/google/gson/internal/bind/MapTypeAdapterFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/JavaPackages/gson-2.8.0.jar!/com/google/gson/internal/ConstructorConstructor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="39" column="65" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/JavaPackages/gson-2.8.0.jar!/com/google/gson/internal/Excluder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="167" selection-start-line="167" selection-end-line="167" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/JavaPackages/gson-2.8.0.jar!/com/google/gson/internal/$Gson$Types.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="209" column="87" selection-start-line="209" selection-start-column="87" selection-end-line="209" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/lib/src.zip!/java.base/java/lang/StringLatin1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="703" selection-start-line="703" selection-end-line="703" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/lib/src.zip!/java.base/java/lang/CharacterData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/lib/src.zip!/java.base/java/lang/CharacterDataLatin1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/lib/src.zip!/java.base/java/lang/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="8413" selection-start-line="8413" selection-end-line="8413" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/JavaPackages/gson-2.8.0.jar!/com/google/gson/FieldNamingPolicy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/JavaPackages/gson-2.8.0.jar!/com/google/gson/reflect/TypeToken.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="201" selection-start-line="201" selection-end-line="201" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/JavaPackages/geocoder-java-0.16.jar!/com/google/code/geocoder/model/GeocoderRequest.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/Java/JDBC/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/protocol/FullReadInputStream.class">
+    <entry file="jar://E:/Java/JavaPackages/geocoder-java-0.16.jar!/com/google/code/geocoder/GeocoderRequestBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/Java/JDBC/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/protocol/a/SimplePacketReader.class">
+    <entry file="jar://E:/Java/JavaPackages/geocoder-java-0.16.jar!/com/google/code/geocoder/Geocoder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/Java/JDBC/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/protocol/a/TimeTrackingPacketReader.class">
+    <entry file="jar://E:/Java/JavaPackages/geocoder-java-0.16.jar!/com/google/code/geocoder/model/GeocodeResponse.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/Java/JDBC/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/protocol/a/MultiPacketReader.class">
+    <entry file="jar://E:/Java/JavaPackages/gson-2.8.0.jar!/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/Java/JDBC/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/protocol/a/NativePacketHeader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/lib/src.zip!/java.base/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="556" selection-start-line="556" selection-end-line="556" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/lib/src.zip!/java.base/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="1454" column="50" selection-start-line="1454" selection-start-column="50" selection-end-line="1454" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/lib/src.zip!/java.base/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/lib/src.zip!/java.base/java/lang/Enum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="104" selection-start-line="104" selection-end-line="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/JDBC/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/protocol/a/result/OkPacket.class">
+    <entry file="jar://E:/Java/JavaPackages/gson-2.8.0.jar!/com/google/gson/Gson.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <caret line="445" selection-start-line="445" selection-end-line="445" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/Java/JDBC/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/protocol/a/TextResultsetReader.class">
+    <entry file="file://$PROJECT_DIR$/src/Table/TableManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/Java/JDBC/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/protocol/a/NativePacketPayload.class">
+    <entry file="file://$PROJECT_DIR$/src/Table/TableTableModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/Java/JDBC/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/protocol/a/NativeServerSession.class">
+    <entry file="file://$PROJECT_DIR$/web/dd.tld" />
+    <entry file="file://$PROJECT_DIR$/src/visWeb/d3.min.js" />
+    <entry file="file://$PROJECT_DIR$/src/visWeb/WorkingWithArrays.js" />
+    <entry file="file://$PROJECT_DIR$/src/visWeb/testBar.js" />
+    <entry file="file://$PROJECT_DIR$/src/AddLatLngColumns.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="238">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/Java/JDBC/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/protocol/a/NativeCapabilities.class">
+    <entry file="file://$PROJECT_DIR$/src/visWeb/year_value.csv" />
+    <entry file="file://$PROJECT_DIR$/src/visWeb/BarChart.js" />
+    <entry file="file://$PROJECT_DIR$/src/visWeb/visD3.html" />
+    <entry file="file://$PROJECT_DIR$/src/visWeb/gg.http" />
+    <entry file="file://$PROJECT_DIR$/src/GetMetaColumns.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        <state relative-caret-position="255">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/Java/JDBC/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/protocol/a/result/NativeResultset.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/JDBC/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/jdbc/ConnectionImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="1734" selection-start-line="1734" selection-end-line="1734" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/JDBC/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/NativeSession.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="926" selection-start-line="926" selection-end-line="926" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/JDBC/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/protocol/a/NativeProtocol.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="648" selection-start-line="648" selection-end-line="648" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/JavaPackages/Load_CSV_Database_Java_example/lib/opencsv-2.3.jar!/au/com/bytecode/opencsv/CSVReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-918">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CSVLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="63" column="50" lean-forward="true" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/visWeb/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/visWeb/applet.java" />
     <entry file="file://$PROJECT_DIR$/src/Table/Table.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="170">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RelatedTables/Relationships.java">
+    <entry file="file://$PROJECT_DIR$/src/Table/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DBapp.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RelatedTables/Open_complaints.java">
+    <entry file="file://$PROJECT_DIR$/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RelatedTables/Abandoned_properties.java">
+    <entry file="file://$PROJECT_DIR$/src/Geo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="107" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="107" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="493">
+          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DBapp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8524">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state relative-caret-position="17">
+          <caret line="776" column="26" selection-start-line="776" selection-start-column="26" selection-end-line="776" selection-end-column="26" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DBapp.form">
+      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -717,7 +738,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -757,6 +778,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
