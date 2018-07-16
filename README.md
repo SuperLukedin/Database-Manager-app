@@ -50,7 +50,7 @@
         </a>   
         <h4>Join</h4>
         <a href="Manual/screenshots/JoinBtn.gif">
-            <img src="Manual/screenshots/JoinBtn.gif" alt="Join Bottom gif" class="gif">
+            <img src="Manual/screenshots/JoinBtn.gif" alt="Join Bottom gif" class="gif" align"center" height="290" width="480">
         </a>
         <p>Join &rarr; Select the tables to be Joined &rarr; select columns to be shown in the join results &rarr; select join type &rarr; view the join results</p>
         <p><b>As you entered your data panel, you will see the buttons below:</b></p>
