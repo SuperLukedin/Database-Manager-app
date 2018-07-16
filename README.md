@@ -1,3 +1,9 @@
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="Manual/main.css">
+</head>
 <h1>GETTING STARTED WITH MYSQL DATABASE MANAGER</h1>
         <h2>This is your guide!</h2>
         <h4>Prerequisites</h4>   
